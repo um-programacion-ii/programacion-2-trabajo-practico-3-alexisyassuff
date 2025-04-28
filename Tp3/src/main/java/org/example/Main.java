@@ -16,4 +16,11 @@ public class Main {
         assertEquals(Estado.DISPONIBLE, libro.getEstado());
         libro.mostrarLibro();
     }
+
+    @Test
+    public void testCambiarEstadoLibro() {
+        Libro libro = new Libro("978-3-16-148410-0", "Clean Code", "Robert C. Martin");
+        libro.setEstado(Estado.PRESTADO);
+        assertEquals(Estado.PRESTADO, libro.getEstado());
+    }
 }
