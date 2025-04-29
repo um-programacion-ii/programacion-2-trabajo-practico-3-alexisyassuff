@@ -1,5 +1,8 @@
 package org.example.Clases;
 import org.example.Enum.*;
+import java.util.stream.Collectors;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Libro {
     private String ISBN;
@@ -7,11 +10,11 @@ public class Libro {
     private String autor;
     private Estado estado;
 
-    public Libro(String ISBN, String titulo, String autor) {
+    public Libro(String ISBN, String titulo, String autor, Estado estado) {
         this.ISBN = ISBN;
         this.titulo = titulo;
         this.autor = autor;
-        this.estado = estado.DISPONIBLE;
+        this.estado = estado;
     }
 
     public String getISBN() {
@@ -52,4 +55,6 @@ public class Libro {
         System.out.println("ISBN: "+  getISBN());
         System.out.println("Estado: "+  getEstado());
     }
+
+
 }
