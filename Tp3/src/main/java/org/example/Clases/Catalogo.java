@@ -1,10 +1,8 @@
 package org.example.Clases;
 import org.example.Enum.Estado;
-
 import java.util.stream.Collectors;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Catalogo {
     private List<Libro> lista = new ArrayList<>();
@@ -17,11 +15,10 @@ public class Catalogo {
         return new ArrayList<>(lista);  // Devolvés una copia
     }
 
-    public Libro buscarPorISBN(String ISBN) {
+    public List<Libro> buscarPorISBN(String ISBN) {
         return lista.stream()
-                .filter(r -> r.getISBN().equalsIgnoreCase(ISBN))
-                .findFirst()
-                .orElse(null);
+                .filter(libro -> libro.getISBN().equals(ISBN))
+                .collect(Collectors.toList());  // Devuelve una lista de libros
     }
 
     public List<Libro> obtenerLibrosDisponibles() {
