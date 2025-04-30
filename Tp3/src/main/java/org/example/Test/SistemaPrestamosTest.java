@@ -5,7 +5,7 @@ import static org.mockito.Mockito.*;
 import org.example.Clases.Catalogo;
 import org.example.Clases.Libro;
 import org.example.Clases.Prestamo;
-import org.example.Clases.SistemaPrestamos;
+import org.example.Gestores.SistemaPrestamos;
 import org.example.Enum.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

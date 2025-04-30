@@ -1,4 +1,7 @@
-package org.example.Clases;
+package org.example.Gestores;
+import org.example.Clases.Catalogo;
+import org.example.Clases.Libro;
+import org.example.Clases.Prestamo;
 import org.example.Enum.*;
 import java.util.ArrayList;
 import java.util.List;
