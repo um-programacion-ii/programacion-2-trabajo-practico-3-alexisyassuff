@@ -11,7 +11,7 @@
 - **Recomendación:** Se sugiere leer la consigna completa antes de comenzar con el desarrollo para tener una visión general del proyecto y planificar adecuadamente el trabajo.
 
 ## Identificación del Alumno
-- **Nombre:** Alexis 
+- **Nombre:** Alexis
 - **Apellido:** Yassuff
 - **Legajo:** 62072
 
@@ -46,13 +46,13 @@ El proyecto está dividido en etapas incrementales, cada una enfocada en diferen
 **Tareas:**
 1. Configurar el proyecto Maven con las dependencias necesarias
 2. Implementar la clase `Libro` con los siguientes atributos:
-   - ISBN (String)
-   - Título (String)
-   - Autor (String)
-   - Estado (Enum: DISPONIBLE, PRESTADO)
+    - ISBN (String)
+    - Título (String)
+    - Autor (String)
+    - Estado (Enum: DISPONIBLE, PRESTADO)
 3. Escribir pruebas unitarias para:
-   - Creación de un libro con datos válidos
-   - Cambio de estado del libro
+    - Creación de un libro con datos válidos
+    - Cambio de estado del libro
 
 **Ejemplo de Guía:**
 ```java
@@ -77,12 +77,12 @@ void testCrearLibroValido() {
 
 **Tareas:**
 1. Implementar la clase `Catalogo` con los siguientes métodos:
-   - Agregar libro
-   - Buscar libro por ISBN
-   - Obtener todos los libros disponibles
+    - Agregar libro
+    - Buscar libro por ISBN
+    - Obtener todos los libros disponibles
 2. Escribir pruebas unitarias que incluyan:
-   - Pruebas con múltiples libros
-   - Búsquedas exitosas y fallidas
+    - Pruebas con múltiples libros
+    - Búsquedas exitosas y fallidas
 
 **Ejemplo de Guía:**
 ```java
@@ -115,11 +115,11 @@ void testBuscarPorIsbn() {
 
 **Tareas:**
 1. Implementar las clases:
-   - `Prestamo` (fecha de préstamo, libro)
-   - `SistemaPrestamos` (gestión de préstamos)
+    - `Prestamo` (fecha de préstamo, libro)
+    - `SistemaPrestamos` (gestión de préstamos)
 2. Escribir pruebas que utilicen mocks para:
-   - Simular el catálogo de libros
-   - Probar el flujo de préstamo
+    - Simular el catálogo de libros
+    - Probar el flujo de préstamo
 
 **Ejemplo de Guía:**
 ```java
@@ -154,11 +154,11 @@ void testPrestarLibro() {
 
 **Tareas:**
 1. Implementar las clases:
-   - `Usuario` (nombre, historial de préstamos)
-   - `GestionUsuarios` (registro de usuarios)
+    - `Usuario` (nombre, historial de préstamos)
+    - `GestionUsuarios` (registro de usuarios)
 2. Escribir pruebas que:
-   - Utilicen múltiples mocks
-   - Prueben el manejo de excepciones
+    - Utilicen múltiples mocks
+    - Prueben el manejo de excepciones
 
 **Ejemplo de Guía:**
 ```java
@@ -198,29 +198,29 @@ Cada etapa debe ser entregada a través de un Pull Request que incluya:
 El uso de Inteligencia Artificial (IA) como herramienta de asistencia en el desarrollo de software es una práctica cada vez más común. Sin embargo, es importante considerar los siguientes aspectos éticos:
 
 1. **Transparencia y Honestidad**
-   - Declarar el uso de IA en el desarrollo del trabajo
-   - Documentar cómo se utilizó la IA como herramienta de asistencia
-   - No presentar código generado por IA como propio sin revisión y comprensión
+    - Declarar el uso de IA en el desarrollo del trabajo
+    - Documentar cómo se utilizó la IA como herramienta de asistencia
+    - No presentar código generado por IA como propio sin revisión y comprensión
 
 2. **Aprendizaje y Comprensión**
-   - La IA debe ser utilizada como una herramienta de aprendizaje, no como un reemplazo del pensamiento crítico
-   - Es fundamental entender el código generado y las pruebas implementadas
-   - El estudiante debe ser capaz de explicar y justificar las decisiones tomadas
+    - La IA debe ser utilizada como una herramienta de aprendizaje, no como un reemplazo del pensamiento crítico
+    - Es fundamental entender el código generado y las pruebas implementadas
+    - El estudiante debe ser capaz de explicar y justificar las decisiones tomadas
 
 3. **Responsabilidad**
-   - El estudiante es responsable final de la calidad y corrección del código
-   - Las pruebas deben ser verificadas y validadas personalmente
-   - El código debe ser revisado y comprendido antes de su entrega
+    - El estudiante es responsable final de la calidad y corrección del código
+    - Las pruebas deben ser verificadas y validadas personalmente
+    - El código debe ser revisado y comprendido antes de su entrega
 
 4. **Uso Apropiado**
-   - La IA debe ser utilizada para asistir en el aprendizaje, no para evadir el proceso de desarrollo
-   - Las consultas a la IA deben ser específicas y enfocadas en el aprendizaje
-   - No se debe depender exclusivamente de la IA para resolver problemas
+    - La IA debe ser utilizada para asistir en el aprendizaje, no para evadir el proceso de desarrollo
+    - Las consultas a la IA deben ser específicas y enfocadas en el aprendizaje
+    - No se debe depender exclusivamente de la IA para resolver problemas
 
 5. **Integridad Académica**
-   - El trabajo final debe reflejar el aprendizaje y comprensión del estudiante
-   - La IA es una herramienta de asistencia, no un sustituto del aprendizaje
-   - Se espera que el estudiante demuestre su comprensión de los conceptos a través de su implementación
+    - El trabajo final debe reflejar el aprendizaje y comprensión del estudiante
+    - La IA es una herramienta de asistencia, no un sustituto del aprendizaje
+    - Se espera que el estudiante demuestre su comprensión de los conceptos a través de su implementación
 
 ## Recursos Adicionales
 - [Documentación de JUnit5](https://junit.org/junit5/docs/current/user-guide/)
