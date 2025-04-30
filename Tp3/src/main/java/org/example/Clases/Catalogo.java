@@ -12,13 +12,13 @@ public class Catalogo {
     }
 
     public List<Libro> obtenerListaDeLibros() {
-        return new ArrayList<>(lista);  // Devolvés una copia
+        return new ArrayList<>(lista);
     }
 
     public List<Libro> buscarPorISBN(String ISBN) {
         return lista.stream()
                 .filter(libro -> libro.getISBN().equals(ISBN))
-                .collect(Collectors.toList());  // Devuelve una lista de libros
+                .collect(Collectors.toList());
     }
 
     public List<Libro> obtenerLibrosDisponibles() {
