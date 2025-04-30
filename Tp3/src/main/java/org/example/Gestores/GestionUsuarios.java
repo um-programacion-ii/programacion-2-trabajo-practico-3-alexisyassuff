@@ -36,8 +36,10 @@ public class GestionUsuarios {
         if (prestamo == null) {
             throw new IllegalStateException("No se pudo realizar el préstamo");
         }
-
         usuario.agregarPrestamo(prestamo);
     }
 
+    public Usuario obtenerUsuario(String nombre) {
+        return usuarios.get(nombre);
+    }
 }
